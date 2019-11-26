@@ -21,8 +21,6 @@ VALUES
 (9,'Germany','Berlin',220000,'321',),
 (10,'Finland','Helsinki',100000,'879',);
 
-UPDATE counrtys SET population=150 WHERE country = 'Russia';
-
 // 2 задание
 SELECT city, country FROM countrys WHERE population > 1000000;
 // 3 задание
